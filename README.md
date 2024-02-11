@@ -14,14 +14,23 @@ To Order PCB and PCBA, use Gerber, PickAndPlace, BOM files.
 
 ## Bill of Materials
 1 x CH32V003F4P6(Qin Heng RISC-V Microcontroller)
+
 1 x U254-051T-4BH23-S2B(USB Micro-B Female Connector)
+
 1 x ME6203A33M3G(3.3V 300mA Voltage regulator, also can use ME6211A33M3G(3.3V 500mA) to use more current)
+
 2 x 0603 SMD 10uF Capacitor
+
 2 x 0603 SMD 33 Ohm Resistor(If you don't want to use USB features or want to use PD3, PD4, PD5 as GPIO, Don't solder it)
+
 1 x 0603 SMD 1.5k Ohm Resistor(If you don't want to use USB features or want to use PD3, PD4, PD5 as GPIO, Don't solder it)
+
 2 x Pin header 1x10 of Pitch 2.54mm
+
 1 x Pin header 1x3 of Pitch 2.54mm
+
 
 ## Credits
 This design is based on [rv003usb](https://github.com/cnlohr/rv003usb).
+
 (You need both [rv003usb](https://github.com/cnlohr/rv003usb) and [ch32v003fun](https://github.com/cnlohr/ch32v003fun) libraries to using as USB HID device.)
